@@ -8,6 +8,14 @@ module.exports = {
         text: {
           400: "#A6A6A6",
         },
+        primary: {
+          400: "#52BD94",
+          500: "#10B981",
+          600: "#059669",
+        },
+        secondary: {
+          400: "#161C28",
+        },
       },
     },
     container: {

@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass assets/scss/main.scss assets/css/style.css -w"
+    "sass": "sass assets/scss/main.scss assets/css/style.css -w",
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/assets/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
     "sass": "^1.62.1",
     "tailwindcss": "^3.3.3"
   }
