@@ -263,7 +263,7 @@
   //! 12. Mobile Menu Js
   $("#mobile-menu").meanmenu({
     meanMenuContainer: ".mobile-menu",
-    meanScreenWidth: "991",
+    meanScreenWidth: "1024",
     meanExpand: ['<i class="fal fa-plus"></i>'],
   });
 
